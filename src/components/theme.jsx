@@ -6,7 +6,7 @@ export const theme = {
     background: '#befffb',
     primary: '#f7eff4',
     secondary: '#97f1ff',
-    accent: '#9e0202',
+    accent: '#063a36',
     muted: '#f6f6f6',
   },
   space: [0, 2, 4, 8, 16, 32, 64, 128, 256],
@@ -40,8 +40,7 @@ export const theme = {
     round: '50%',
   },
   shadows: {
-    textShadow:
-      ' 0.0313rem 0.0313rem 0rem #baa2c5, -0.0313rem -0.0313rem 0rem #ffffff',
+    textShadow: '0 1px 1px #fff',
     boxShadow:
       '-0.3125rem -0.3125rem 1.25rem #fff, 0.3125rem 0.3125rem 1.25rem #babecc',
   },

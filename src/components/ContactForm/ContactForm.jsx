@@ -3,7 +3,7 @@ import { Formik } from 'formik';
 import * as yup from 'yup';
 import { nanoid } from 'nanoid';
 import { BsFillTelephoneFill, BsPersonFill } from 'react-icons/bs';
-import { MdContactPage } from 'react-icons/md';
+import { IoMdPersonAdd } from 'react-icons/io';
 import PropTypes from 'prop-types';
 
 import {
@@ -79,7 +79,7 @@ export const ContactForm = ({ onAddContact }) => {
           <ErrorMessage name="number" component="span" />
         </FormField>
         <StyledButton type="submit">
-          <MdContactPage />
+          <IoMdPersonAdd size="16" />
           Add contact
         </StyledButton>
       </Form>

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { BsFillPersonXFill } from 'react-icons/bs';
+import { IoPersonRemove } from 'react-icons/io5';
 import { Btn, Item, List } from './ContactList.styled';
 
 export const ContactList = ({ contacts, onDelete }) => {
@@ -14,7 +14,7 @@ export const ContactList = ({ contacts, onDelete }) => {
               {name}: {number}
             </p>
             <Btn type="button" onClick={() => onDelete(id)}>
-              <BsFillPersonXFill size="16" />
+              <IoPersonRemove size="16" />
             </Btn>
           </Item>
         );

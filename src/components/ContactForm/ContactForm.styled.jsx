@@ -10,7 +10,7 @@ export const Form = styled(FormikForm)`
   padding: ${props => props.theme.space[3]}px;
 
   max-width: 100%;
-  width: 500px;
+  //width: 500px;
 `;
 
 export const FormField = styled.label`
@@ -35,11 +35,11 @@ export const FieldFormik = styled(Field)`
   padding-right: ${p => p.theme.space[4]}px;
 
   max-width: 100%;
-  width: 450px;
+  //width: 320px;
 
   border: 0;
   outline: 0;
-  border-radius: 320px;
+  border-radius: 8px;
   color: ${props => props.theme.colors.accent};
   background-color: ${props => props.theme.colors.primary};
   box-shadow: inset 1px 1px 3px #8ba793, inset -1px -1px 5px #fff;
@@ -67,11 +67,11 @@ export const StyledButton = styled.button`
   padding-right: ${p => p.theme.space[4]}px;
 
   max-width: 100%;
-  width: 350px;
+  // width: 350px;
 
   border: ${p => p.theme.borders.none};
   outline: none;
-  border-radius: ${p => p.theme.radii.normal};
+  border-radius: 8px;
 
   box-shadow: ${p => p.theme.shadows.boxShadow};
   transition: all 0.2s ease-in-out;

@@ -22,11 +22,11 @@ export const Input = styled.input`
   padding-right: ${p => p.theme.space[4]}px;
 
   max-width: 100%;
-  width: 350px;
+  //width: 350px;
 
   border: 0;
   outline: 0;
-  border-radius: ${p => p.theme.radii.normal};
+  border-radius: 8px;
   color: ${props => props.theme.colors.accent};
   background-color: ${props => props.theme.colors.primary};
   box-shadow: inset 1px 1px 3px #8ba793, inset -1px -1px 5px #fff;

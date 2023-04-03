@@ -3,19 +3,20 @@ import styled from 'styled-components';
 export const List = styled.ul`
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 16px;
   padding-top: ${p => p.theme.space[3]}px;
   padding-bottom: ${p => p.theme.space[3]}px;
   padding-left: ${p => p.theme.space[4]}px;
   padding-right: ${p => p.theme.space[4]}px;
 
   max-width: 100%;
-  width: 450px;
+  //width: 450px;
 `;
 export const Item = styled.li`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 16px;
 
   color: ${p => p.theme.colors.accent};
   text-shadow: ${props => props.theme.shadows.textShadow};

@@ -7,4 +7,5 @@ export const Container = styled.div`
   justify-content: center;
   gap: ${props => props.theme.space[4]}px;
   padding: ${props => props.theme.space[4]}px;
+  height: 100vh;
 `;

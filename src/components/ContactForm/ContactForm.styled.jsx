@@ -51,6 +51,7 @@ export const FieldFormik = styled(Field)`
 `;
 
 export const ErrorMessage = styled(FormikError)`
+  max-width: 200px;
   font-style: italic;
   color: #9e0202;
 `;

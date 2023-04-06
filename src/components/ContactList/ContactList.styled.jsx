@@ -10,7 +10,7 @@ export const List = styled.ul`
   padding-right: ${p => p.theme.space[4]}px;
 
   max-width: 100%;
-  //width: 450px;
+  width: 300px;
 `;
 export const Item = styled.li`
   display: flex;

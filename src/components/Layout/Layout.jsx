@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container } from './Layout.styled';
+import { Container, MainBlock } from './Layout.styled';
 import PropTypes from 'prop-types';
 
 export const Layout = ({ children }) => {
   return (
     <Container>
-      <main>{children}</main>
+      <MainBlock>{children}</MainBlock>
     </Container>
   );
 };

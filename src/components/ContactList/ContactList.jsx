@@ -10,9 +10,9 @@ export const ContactList = ({ contacts, onDelete }) => {
       {contacts.map(({ name, number, id }) => {
         return (
           <Item key={id}>
-            <p>
-              {name}: {number}
-            </p>
+            <span>{name}:</span>
+            <span>{number}</span>
+
             <Btn type="button" onClick={() => onDelete(id)}>
               <IoPersonRemove size="16" />
             </Btn>
